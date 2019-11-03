@@ -127,12 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ProjectReference Include="..\core\core.vcxproj">
-      <Project>{6b44e8bc-5cdf-4088-8c04-fb7dc63a527d}</Project>
-    </ProjectReference>
+    <ClCompile Include="..\..\..\src\sample\sample.cpp" />
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\src\sample\sample.cpp" />
+    <ProjectReference Include="..\simple-accumulator\simple-accumulator.vcxproj">
+      <Project>{9d0eaaa0-dea1-4265-a190-44b3102449fb}</Project>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
