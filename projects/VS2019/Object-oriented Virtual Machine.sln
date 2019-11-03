@@ -7,6 +7,10 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "core", "core\core.vcxproj",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sample", "sample\sample.vcxproj", "{4246C8A1-2785-4E78-B432-1C80577EA746}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "simple-accumulator", "simple-accumulator\simple-accumulator.vcxproj", "{9D0EAAA0-DEA1-4265-A190-44B3102449FB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Processor", "Processor", "{005E29E3-0A96-4C61-87AC-A7E213878BD5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -31,9 +35,21 @@ Global
 		{4246C8A1-2785-4E78-B432-1C80577EA746}.Release|x64.Build.0 = Release|x64
 		{4246C8A1-2785-4E78-B432-1C80577EA746}.Release|x86.ActiveCfg = Release|Win32
 		{4246C8A1-2785-4E78-B432-1C80577EA746}.Release|x86.Build.0 = Release|Win32
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Debug|x64.ActiveCfg = Debug|x64
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Debug|x64.Build.0 = Debug|x64
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Debug|x86.ActiveCfg = Debug|Win32
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Debug|x86.Build.0 = Debug|Win32
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Release|x64.ActiveCfg = Release|x64
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Release|x64.Build.0 = Release|x64
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Release|x86.ActiveCfg = Release|Win32
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{6B44E8BC-5CDF-4088-8C04-FB7DC63A527D} = {005E29E3-0A96-4C61-87AC-A7E213878BD5}
+		{9D0EAAA0-DEA1-4265-A190-44B3102449FB} = {005E29E3-0A96-4C61-87AC-A7E213878BD5}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {0BEA3EBD-FA2E-481A-89A0-035BBC7E5E7C}

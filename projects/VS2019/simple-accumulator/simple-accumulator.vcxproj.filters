@@ -1,0 +1,81 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\instructions">
+      <UniqueIdentifier>{49e8f611-8974-4a09-afc2-6f6279310e85}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ソース ファイル\instructions">
+      <UniqueIdentifier>{ecb5a547-2c17-4077-afce-64183b51a9ef}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\Instructions.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\SimpleAccumulator.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Nop.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\common.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Pop.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Print.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Push.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Jez.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Add.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Load.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\SimpleAccumulator.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Nop.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Pop.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Print.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Push.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Jez.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Add.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\simple-accumulator-machine\instructions\Load.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
