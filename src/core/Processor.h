@@ -3,37 +3,24 @@
 
 #include "common.h"
 
-class Program;
 class Instruction;
 
 
-class Processor final {
-	friend Instruction;
-	
-private:
-	OVM::Register pc;
-	OVM::Register sp;
-	OVM::Register acc;
-	Program * program;
-	Memory * heap;
-	Memory * stack;
-	
+class Processor {
 public:
-	Processor() = delete;
-	Processor(size_t heapSize, size_t stackSize, size_t programSize);
+	Processor() = default;
 	Processor(const Processor &) = delete;
 	Processor(Processor &&) = delete;
-	~Processor();
+	virtual ~Processor() = default;
 	Processor & operator=(const Processor &) = delete;
 	Processor & operator=(Processor &&) = delete;
 	
-	void reset();
+	virtual void reset() = 0;
 	
-	bool setInstruction(OVM::Address addr, Instruction * inst);
+	virtual bool setInstruction(OVM::Address addr, Instruction * inst) = 0;
+	virtual Instruction * getInstruction(OVM::Address addr) const = 0;
 	
-	Instruction * getCurrentInstruction() const;
-	
-	bool step();
+	virtual bool step() = 0;
 };
 
 #endif /* DEF_PROCESSOR_H */

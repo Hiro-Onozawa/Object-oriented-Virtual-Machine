@@ -19,9 +19,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\..\src\core\Instruction.cpp" />
     <ClCompile Include="..\..\..\src\core\Memory.cpp" />
-    <ClCompile Include="..\..\..\src\core\Processor.cpp" />
     <ClCompile Include="..\..\..\src\core\Program.cpp" />
   </ItemGroup>
   <ItemGroup>
