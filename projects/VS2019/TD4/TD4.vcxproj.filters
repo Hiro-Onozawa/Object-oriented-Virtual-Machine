@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="ソース ファイル">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="ヘッダー ファイル">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="リソース ファイル">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="ソース ファイル\instructions">
+      <UniqueIdentifier>{cf997d91-0a53-493f-af91-0197ad470c67}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ヘッダー ファイル\instructions">
+      <UniqueIdentifier>{1bdde20a-8115-49d3-ab28-5419175bf55c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\..\src\processor\TD4\Processor.cpp">
+      <Filter>ソース ファイル</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\AddAIm.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\AddBIm.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\InA.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\InB.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\Jmp.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\MovAB.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\MovAIm.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\MovBA.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\MovBIm.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\Nop.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\OutB.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\OutIm.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\src\processor\TD4\instructions\Jnc.cpp">
+      <Filter>ソース ファイル\instructions</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\..\src\processor\TD4\Instructions.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\Processor.h">
+      <Filter>ヘッダー ファイル</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\AddAIm.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\AddBIm.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\common.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\InA.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\InB.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\Jmp.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\MovAB.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\MovAIm.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\MovBA.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\MovBIm.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\Nop.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\OutB.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\OutIm.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\src\processor\TD4\instructions\Jnc.h">
+      <Filter>ヘッダー ファイル\instructions</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
